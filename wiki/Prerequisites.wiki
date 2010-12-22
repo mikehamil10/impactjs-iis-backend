@@ -1,7 +1,5 @@
 #summary What you need to already have installed on your machine.
 
-= Prerequisites =
-
 For the files in this package to work successfully, it is assumed that you have
 the following already installed on your computer:
 
