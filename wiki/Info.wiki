@@ -1,7 +1,5 @@
 #summary Background on the ImpactJS IIS Backend Project
 
-= Introduction =
-
 ImpactJS is a kick-ass JavaScript/HTML5 game engine that uses the canvas
 element and underlying drawing api. It unfortunately depends on the developer
 having Apache & PHP installed on their machine to use the built-in level editor
