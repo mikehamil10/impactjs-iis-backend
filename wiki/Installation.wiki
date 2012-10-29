@@ -7,7 +7,7 @@ To set-up the IIS back-end for ImpactJS:
   * Copy the files in this package to the /lib/weltmeister/api folder of the ImpactJS installation
 
   * Make the following changes to /lib/weltmeister/api/web.config:
-    * Set the "rootFile" key to the path in your IIS installation where this instance of ImpactJS is located. If the installation is at the root of the IIS website, leave the value at its default: "/". If, for example, you have Impact installed in the /impact folder in your IIS root, just change the web.config key to read "/impact". Simple as that!
+    * Set the "fileRoot" key to the path in your IIS installation where this instance of ImpactJS is located. If the installation is at the root of the IIS website, leave the value at its default: "/". If, for example, you have Impact installed in the /impact folder in your IIS root, just change the web.config key to read "/impact". Simple as that!
 
   * Make the following changes to /lib/weltmeister/config.js:
     * change the 'save' value in the 'api' section to: 'lib/weltmeister/api/save.aspx' (line 61)
