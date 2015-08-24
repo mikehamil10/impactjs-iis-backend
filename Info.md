@@ -1,0 +1,9 @@
+ImpactJS is a kick-ass JavaScript/HTML5 game engine that uses the canvas
+element and underlying drawing api. It unfortunately depends on the developer
+having Apache & PHP installed on their machine to use the built-in level editor
+(Weltmeister).
+
+If you're running Windows and doing HTML5 game development, you most likely
+already have IIS (and the .NET framework) installed. The files in this package
+allow you to run ImpactJS and the Weltmeister editor in IIS, eliminating the need
+to download, install and configure apache and PHP.
